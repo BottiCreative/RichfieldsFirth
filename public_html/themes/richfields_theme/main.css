@@ -57,25 +57,22 @@ p.slogan { color:#8BB3D3; font-size:18px; padding:40px 0 0 0;}
   .darkArrow { background:url(images/dark-arrow.png) no-repeat; width:34px; position:absolute; bottom:68px; left:30px; height:20px; z-index:999;}
   
   .lightArrow { background:url(images/light-arrow.png) no-repeat; width:34px; position:absolute; bottom:68px; left:30px; height:20px; z-index:999;}
+
+.homeServ{ background: #f00; float: left;}  
+
+
+.homeGridInfo { padding:10px 20px 30px 20px; border-top:solid 4px #fff; margin:0 0 8px 0;}
+.bluemed { background:#2966AA;}
+.bluelight{ background:#8BB3D4;}
+.bluedark { background:#13355B;}
+.homeGridInfo h1 { color:#fff; font-size:18px; float:left; margin:0; padding:0; line-height:18px; font-weight:400;}
+.homeGridInfo a { float:right; color:#fff; font-size:12px; padding:6px 0;}
   
-  .homeGridInfo { padding:10px 20px 30px 20px; border-top:solid 4px #fff; margin:0 0 8px 0;}
-  
-  .bluemed { background:#2966AA;}
-  
-  .bluelight{ background:#8BB3D4;}
-   
-  .bluedark { background:#13355B;}
-  
-  .homeGridInfo h1 { color:#fff; font-size:18px; float:left; margin:0; padding:0; line-height:18px; font-weight:400;}
-   
-  .homeGridInfo a { float:right; color:#fff; font-size:12px; padding:6px 0;}
-  
-  .quoteRight{ padding: 0 0 5px 0; background: url(images/form-top.gif) no-repeat bottom center; float: left;}
-  .quoteBlock { background:#2966AA; height:auto; padding:15px 15px 5px 15px; text-align:center; color:#fff; font-size:13px;}
-  
-    .quoteBlock p { line-height:16px;}
-	
-	/*SIDE FORM STYLES*/
+.quoteRight{ padding: 0 0 5px 0; background: url(images/form-top.gif) no-repeat bottom center; float: left;}
+.quoteBlock { background:#2966AA; height:auto; padding:15px 15px 5px 15px; text-align:center; color:#fff; font-size:13px;}
+.quoteBlock p { line-height:16px;}
+
+/*SIDE FORM STYLES*/
 	
 	
 

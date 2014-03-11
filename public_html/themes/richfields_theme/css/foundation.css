@@ -25,9 +25,9 @@ object,embed {height: 100%; }
 
 
 .nobg{background:transparent !important;}
-.nopad{padding:0 !important;}
+.nopad{padding:0!important;}
 .nopadLeft{padding-left:0 !important;}
-.nopadRight{padding-left:0 !important;}
+.nopadRight{padding-right:0 !important;}
 
 
 .left {float: left !important; }
