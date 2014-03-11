@@ -1,0 +1,295 @@
+@import url('css/AtMedia.css');
+
+/* use at import above to include other elements - NOTHING comes before it*/
+/* NO @ MEDIA on this sheet */ 
+
+
+
+body {
+  background: white;
+  padding: 0;
+  margin: 0;
+  color:#4c4c4c; font-weight:300; line-height:22px;
+  font-weight: normal;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  line-height: 1; font-size: 1em;
+  cursor: default; }
+
+/*change this to increase page width do not remove---*/
+  .row{max-width: 62.5em;}
+  
+
+/* Typography resets shouldn't need to be changed*/
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,
+h5,h6,pre,form,p,blockquote,th,td {
+  margin: 0;
+  padding: 0;
+  direction: ltr; }
+    
+
+/* Default Link Styles */
+a {text-decoration: none;line-height: inherit; }
+a:hover, a:focus {color: #8BB3D4; text-decoration:underline;}
+a img {border: none; }
+
+/* Default paragraph styles */
+p {
+  font-family: inherit;
+  font-weight: normal;
+  line-height: 1em;
+  margin-bottom: 1.25rem;
+  text-rendering: optimizeLegibility; }
+
+p aside {font-size: 0.875rem; line-height: 1.35;font-style: italic; }
+
+p.slogan { color:#8BB3D3; font-size:18px; padding:40px 0 0 0;}
+.headerWrapper { width:100%; background:#13355B; height:auto; min-height:120px; padding:30px 0 0 0;}
+.headerContactInner {text-align:right; color:#fff; float:left; padding:0; }
+.headerContactInner p { margin:10px 0 0 0; padding:0;}
+.headerContactInner h5 { font-weight:700; font-size:24px; color:#fff; margin: 0 0 10px 0;}
+.callIcon { padding:15px 0 0 30px!important }
+.navInner {background: #3b87da; /* Old browsers */background: -moz-linear-gradient(top,  #3b87da 0%, #316cad 100%); /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b87da), color-stop(100%,#316cad)); /* Chrome,Safari4+ */background: -webkit-linear-gradient(top,  #3b87da 0%,#316cad 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top,  #3b87da 0%,#316cad 100%); /* Opera 11.10+ */background: -ms-linear-gradient(top,  #3b87da 0%,#316cad 100%); /* IE10+ */background: linear-gradient(to bottom,  #3b87da 0%,#316cad 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b87da', endColorstr='#316cad',GradientType=0 ); /* IE6-9 */; width:100%; height:auto; border-top:#fff 3px solid}
+.contentWrapper { margin:0 0 40px 0;}
+.homeGridImage img{ width:100%!important; position:relative; height:auto; border:0;}
+.medArrow { background:url(images/med-arrow.png) no-repeat; width:34px; position:absolute; bottom:68px; left:30px; height:20px; z-index:999;}
+  
+  .darkArrow { background:url(images/dark-arrow.png) no-repeat; width:34px; position:absolute; bottom:68px; left:30px; height:20px; z-index:999;}
+  
+  .lightArrow { background:url(images/light-arrow.png) no-repeat; width:34px; position:absolute; bottom:68px; left:30px; height:20px; z-index:999;}
+  
+  .homeGridInfo { padding:10px 20px 30px 20px; border-top:solid 4px #fff; margin:0 0 8px 0;}
+  
+  .bluemed { background:#2966AA;}
+  
+  .bluelight{ background:#8BB3D4;}
+   
+  .bluedark { background:#13355B;}
+  
+  .homeGridInfo h1 { color:#fff; font-size:18px; float:left; margin:0; padding:0; line-height:18px; font-weight:400;}
+   
+  .homeGridInfo a { float:right; color:#fff; font-size:12px; padding:6px 0;}
+  
+  .quoteRight{ padding: 0 0 5px 0; background: url(images/form-top.gif) no-repeat bottom center; float: left;}
+  .quoteBlock { background:#2966AA; height:auto; padding:15px 15px 5px 15px; text-align:center; color:#fff; font-size:13px;}
+  
+    .quoteBlock p { line-height:16px;}
+	
+	/*SIDE FORM STYLES*/
+	
+	
+
+	
+	.watermark { width:80%; height:34px; background:#fff; border:none; margin:0 0 4px 0;}
+	
+
+  
+  
+  /*FOOTER STYLES*/
+  
+  footer { width:100%; background:#13355B; padding:20px 0; height:auto; border-top:1px solid #185293;}
+  
+  .footerLogo { padding:20px 0; border-bottom:1px solid #fff; margin:0 0 20px 0;}
+  
+  .footerContact { color:#fff; font-size:14px; }
+  
+  .footerContact p, .footerInfo p { line-height:18px;}
+  
+  .footerContact h5 { font-weight:400; font-size:14px; color:#fff;}
+  
+  .footerContact a { color:#fff;}
+  
+      .footerContact a:hover {color: #8BB3D4; text-decoration:underline;}
+  
+  .footerSocial{}
+.footerSocial a{ width: 38px; height: 38px; background: #ccc; display: block; float: left; margin: 0 0 0 5px; background: url(images/social-sprite.png) no-repeat;}
+.footerSocial a.fbLink{ background-position: 0 0px;}
+.footerSocial a.fbLink:hover{ background-position: 0 -38px;}
+.footerSocial a.twittLink{ background-position: -38px 0px;}
+.footerSocial a.twittLink:hover{ background-position: -38px -38px;}
+.footerSocial a.inLink{ background-position: -76px 0px;}
+.footerSocial a.inLink:hover{ background-position: -76px -38px;}
+.footerSocial a.youLink{ background-position: -114px 0px;}
+.footerSocial a.youLink:hover{ background-position: -114px -38px;}
+  
+  .footerNav { padding:20px 0; border-bottom:1px solid #fff; margin:0 0 20px 0;}
+  
+  .footerNav ul { padding:40px 0 0 0;}
+  
+  .footerNav li {display:inline; padding:0 40px 0 0; margin:0;}
+  
+   .footerNav li a { color:#fff; font-weight:bold; font-size:16px;}
+   
+   .footerNav li a:hover {color: #8BB3D4; text-decoration:none;}
+   
+   .footerInfo { color:#fff; font-size:12px;}
+   
+   .footerInfo a { color:#fff; margin:0 0 20px 0; font-weight:600; font-size:14px; display:block;}
+   
+   .footerInfo a:hover {color: #8BB3D4; text-decoration:underline;}
+   
+   .copyRight { color:#fff; border-top:1px solid #fff; padding:10px 20px; margin:10px 0 0 0; font-size:12px;}
+   
+ 
+.headerslide{ position: relative; height: auto; padding:0 }
+
+.headerslide img{ position: absolute; top: 0; left: 48px; }
+
+.serviceOverlayText{position: absolute; z-index: 10;}
+   
+.headerslide h1 { padding:70px 0 0 0; text-transform:capitalize; text-transform:uppercase; font-weight:300; color:#13355b; line-height:29px; font-size:25px; }   
+.headerslide h1 span { font-weight:bold}
+.headerslide p { color:#4c4c4c; font-weight:300; padding:10px 0 0 0; font-size:15px; z-index: 10; position: absolute;}
+ .headercontent { }
+ .headerslide { background:url(images/headerslide.jpg) no-repeat right top; min-height: 346px;}
+ .bulk {}
+ .sidenavtitle { background:#316cad}
+ .sidenavtitlepoint { background: url(images/navarrow.gif) no-repeat top right; position:absolute; top:147px; right:20px; height:5px; width:13px}
+ 
+.bulktext{ padding-left:0!important; margin-left:0}
+.bulktext h1 { color:#13355b; font-size:25px; font-weight:600; text-transform:capitalize; text-transform:uppercase; margin-top:50px}
+.bulktext h2,.protectionservices h3 span{ font-size:26px; color:#13355b; font-weight:700; padding: 30px 0 0 0}
+.bulktext p,.protectionservices p{padding: 8px 15px 0 0; color:#444; line-height:22px }
+
+.bulktext p span.bluei { color:#2966aa; font-style:italic; font-weight:500}
+.bulktext p span.warning { color:#f9d52a;  font-weight:500}
+.bulktext p span.smallprint { font-weight:300; font-size:9px; line-height:1px!important}
+.bulktext ul { padding-left:20px}
+.bulktext ul li{ padding: 6px 0;}
+
+
+ul.sidenav { list-style-type:none!important; padding: 0!important; margin: 60px 0!important;}
+.sidenav li { padding: 0px 0px 0 0px; font-size:14px; display:block;border-bottom: solid 1px #f4f4f4;}
+.sidenav li a {  color:#316cad; display:block; height: 35px; line-height: 32px; }
+.sidenav li a:hover { color:#fff; background:#8bb3d4 url(images/navarrow.png) no-repeat left center; padding: 0px 0 0px 20px; }
+ 
+.sidenav li:last-child{ border-bottom: solid 1px #fff;}
+.sidenav h2 { color:#FFFFFF; padding:50px 20px 20px 25px; font-size:18px; margin: 0!important;}
+.sidenav h2 span { font-weight:600}
+
+.buttons { margin:50px auto!important}
+.mortgagecalc p { margin:100px 0 0 0; text-align:right;}
+.mortgagesearch p { margin:100px 0 0 0;}
+
+.boxonetext p { padding:40px 0 0 0}
+
+/*Box Link*/
+.serviceBox{ width: 100%; min-height: 200px; position: relative; padding:0!important; margin:50px 0 10px 0; -webkit-box-shadow: 0 2px 10px 1px rgba(122,122,122,122); box-shadow: 0 2px 10px 1px rgba(122,122,122,122);  }
+.serviceBox a.overLayLink{width: 100%; height: 100%; position: absolute; top: 0; left: 0; -webkit-transition: all .2s ease-in-out;
+ -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+ transition: all .2s ease-in-out; z-index: 10;}
+.serviceBox a.overLayLink:hover{background-color: rgba(0, 0, 0, .1); color: rgba(0, 0, 0, .1);}
+.serviceBox img { padding:30px 20px 0 20px}
+.serviceBox p { font-size:16px; font-weight:300; padding:40px 0 0 0; color:#13355b} 
+.serviceBox p span.reg { font-size:25px; font-weight:300; text-transform:capitalize; text-transform:uppercase; line-height:26px}
+.serviceBox p span.bold { font-size:25px; font-weight:600; text-transform:capitalize; text-transform:uppercase; line-height:26px}
+.serviceBox a { color:#2966aa; font-size:17px; text-align:right}
+
+.mortsearch { padding:50px 0 0 20px!important}
+
+.partners { padding:20px 0!important}
+.providers { border-bottom:#316cad 1px solid}
+.providers h4 { font-weight:300!important; color:#13355b; font-size:18px}
+.providers h4 span { font-weight:600}
+.partnerlogos { margin:50px 0!important}
+
+.taxpartnerlogos img { margin:50px 20px!important}
+.protectbutton a { background:#3577c0; padding:5px 30px; float:right; color:#FFFFFF }
+.protectbutton a:hover { background:#8bb3d4;  text-decoration:none}
+.protectimage { text-align:center}
+.protectionservices { padding:50px 0 50px 0; border-bottom:#316cad 1px solid;}
+.protectionservices h3 { font-size:22px; -webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-ms-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out; color:#13355b}
+
+.nopadLeft{padding-left: 0!important;}
+
+/*MAINCONTENT*/
+.helpBoxWrapper{ padding: 0 px; margin:20px 0}
+.helpBox{ border:#8bb3d4 1px solid; padding:10px 20px; margin:20px 0 40px 0}
+.helpBox h2{ background: url(images/help-icon.png) no-repeat left center; padding: 0 0 0 50px; display: block; height: 50px; line-height: 50px; } 
+
+.callbox { background:#3577c0; margin-bottom:30px }
+.callbox p { color:#FFFFFF; padding:20px; margin:0; font-weight:100}
+.callbox a { color:#fff; font-weight:bold}
+.call { text-align:center;}
+.call a { font-size:16px; margin:10px 0 0 0!important; color:#3577c0}
+.call img { padding:10px}
+.disclaimer { margin:0px 0}
+.disclaimer p { font-size:13px; margin:0px 0 0 0}
+.insuranceicon { text-align:center}
+.insuranceicon p { color:#13355b; padding:10px 0; text-align:center}
+
+/*SIDE BAR CONTENT*/
+.sideFreeGuides{width: 100%; background: #ccc; height: auto; padding: 20px; margin: 20px 0 0 0;}
+.sideFreeGuides a{ display: block; background: #FF943D; color: #fff; width: 100%; }
+.enquirycall { background:url(images/enquiry-call.png) no-repeat right center; min-height:110px; margin:25px 0}
+.enquirycall p { font-size:12px; font-weight:300; padding:10px 0 2px 0px; margin-bottom:0px; color:#13355b} 
+.enquirycall p span.reg  { font-size:18px; font-weight:300; text-transform:capitalize; text-transform:uppercase; line-height:26px}
+.enquirycall p span.bold  { font-size:18px; font-weight:600; text-transform:capitalize; text-transform:uppercase; line-height:26px}
+.enquirycall a  { color:#2966aa; font-size:14px; text-align:right; padding:0px 0 0 0px; margin:0}
+.enquiryform { background:url(images/enquiry-form.png) no-repeat right center; min-height:110px; margin:25px 0}
+.enquiryform p span.reg { font-size:18px; font-weight:300; text-transform:capitalize; text-transform:uppercase; line-height:26px}
+.enquiryform p span.bold { font-size:18px; font-weight:600; text-transform:capitalize; text-transform:uppercase; line-height:26px}
+.enquiryform a { color:#2966aa; font-size:14px; text-align:right; padding:0px 0 0 0px; margin:0}
+.enquiryform p { font-size:12px; font-weight:300; padding:10px 0 2px 0px; margin-bottom:0px; color:#13355b}
+
+/*HEADERS*/
+
+h1 { color:#13355b; font-size:25px; font-weight:600; text-transform:capitalize; text-transform:uppercase; margin-top:50px}
+
+/*New Content*/
+.TopForm { padding:0!important}
+.SideForm { background:#f2cd1f; width:100%; height:auto; float:left; padding:10px 0 0 0; position:relative; }
+.SideForm img { position:absolute; top:10px; right:10px;}
+.SideForm h3 { color:#316cad; font-size:16px; font-weight:300; text-transform:uppercase; margin:10px 10px;}
+.SideForm p { font-size:14px; color:#316cad; margin-left:10px}
+
+.FormInner { padding:10px 10px 5px 10px; margin:0 0 5px 0;}
+.FormButtonSubmit { background:#316cad; width:90%; text-align:center; color:#fff; text-transform:uppercase; font-size:14px; padding:10px 0; border:none; font-weight:700;  margin:0 10px 28px 10px;}
+.FormButtonSubmit:hover { background:#8BB3D4;}
+
+.MainTitle{ background: #3b87da; /* Old browsers */background: -moz-linear-gradient(top,  #3b87da 0%, #316cad 100%); /* FF3.6+ */background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3b87da), color-stop(100%,#316cad)); /* Chrome,Safari4+ */background: -webkit-linear-gradient(top,  #3b87da 0%,#316cad 100%); /* Chrome10+,Safari5.1+ */background: -o-linear-gradient(top,  #3b87da 0%,#316cad 100%); /* Opera 11.10+ */background: -ms-linear-gradient(top,  #3b87da 0%,#316cad 100%); /* IE10+ */background: linear-gradient(to bottom,  #3b87da 0%,#316cad 100%); /* W3C */filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b87da', endColorstr='#316cad',GradientType=0 ); /* IE6-9 */ width:100%;}
+.MainTitle h2 { color:#fff; padding:5px 0 5px 20px; font-size:20px; font-weight:400}
+.MainTitle h2 span { font-weight:100}
+
+.ServiceOptions { padding:10px 0; margin:10px 0 20px 0 }
+.ServiceOptions h3 { font-size:19px; color:#13355b; padding: 10px 0; }
+.ServiceOptions p {}
+.ServiceOptions a.servLink { color:#13355b; text-align: right; }
+
+
+
+.Sidenavtitle { background:#f2cd1f; margin-top:3px; width:100%}
+.Sidenav{padding: 0!important}
+ul.Sidenav { list-style-type:none!important; padding: 0!important; margin: 30px 0!important;}
+.Sidenav li { padding: 0px 0px 0 10px; font-size:14px; display:block;border-bottom: solid 1px #f4f4f4;}
+.Sidenav li a {  color:#316cad; display:block; height: 35px; line-height: 32px; }
+.Sidenav li a:hover { color:#fff; background:#316cad url(images/navarrow.png) no-repeat left center; padding: 0px 0 0px 20px; -webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-ms-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out;  }
+.Sidenav li:last-child{ border-bottom: solid 1px #fff;}
+.Sidenav h2 { color:#316cad; padding:50px 20px 20px 25px; font-size:18px; margin: 0!important;}
+.Sidenav h2 span { font-weight:600}
+
+.Testimonials { margin-top:20px!important; margin-bottom: 20px; padding:10px 0}
+.Testholder { background:#f9d52a; margin:30px 0 0 0}
+.Testholder  p { color:#316cad; padding:20px 20px 0 0; font-weight:300}
+.Testholder p.Testname { padding:5px 0 0 0; font-weight:bold; color:#fff; }
+.Testpoint { background:url(images/testarrow.png) no-repeat left top; position:absolute; left:50px; bottom:-10px; width:25px; height:11px}
+.Testimonials h3 { font-size:29px; font-weight:600; color:#316cad; padding:20px; margin:30px 0 0 0}
+.Testimage { padding:25px 15px 30px 15px}
+.Testtext p { font-size:13px; padding:20px 30px 0 0}
+
+.Partners { padding:20px 0!important}
+.Partnerlogos { margin:30px 0!important}
+
+/*SIDETESTIMONIAL*/
+.SideTest { text-align:center; }
+.SideTestImage { position:absolute; top:145px; left:37%}
+.SideTestHolder { background:url(images/sidetestholder.png) no-repeat bottom center, #f9d52a; min-height:80px   }
+.SideTestHolder p {color:#316cad; padding:40px 20px 0px 20px ; font-weight:300}
+.SideTest h3 { font-size:29px; font-weight:600; color:#316cad; padding:20px 10px 50px 10px; margin:30px 0 0 0}
+.QuoteTop { display:block; position:absolute; top:210px; left: 40px}
+.QuoteBottom { display:block; position:absolute; bottom:60px; right: 40px}
+.SideTest p.SideTestName { padding:0px 0 30px 0; font-weight:bold; color:#fff; }
+   
+   
